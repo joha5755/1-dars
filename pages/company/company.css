@@ -1,0 +1,277 @@
+@import "../../css/global.css";
+
+.company-sec1 {
+  display: flex;
+  height: 100%;
+}
+
+.company-container {
+  width: 100%;
+  max-width: 1380px;
+}
+
+.text-and-img {
+  display: flex;
+  flex-direction: column;
+
+  span {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 3px;
+    opacity: 87%;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+
+  img {
+    margin-bottom: 61px;
+    margin-top: 96px;
+  }
+
+  h2 {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 58px;
+    color: #232536;
+    width: 664px;
+    margin-bottom: 24px;
+  }
+
+  p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 719px;
+    color: #232536;
+    opacity: 87%;
+    margin-bottom: 64px;
+  }
+}
+
+.company-imgs {
+  display: flex;
+  gap: 12px;
+}
+
+.img-img {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Section 2 */
+
+.company-sec2 {
+  padding: 96px 160px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.sec2-text-company {
+  display: flex;
+  flex-direction: column;
+
+  span {
+    font-size: 16px;
+    color: #232536;
+    font-weight: 600;
+    line-height: 28px;
+    margin-bottom: 16px;
+  }
+
+  h2 {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 54px;
+    color: #232536;
+    width: 549px;
+    margin-bottom: 24px;
+  }
+
+  p {
+    font-size: 16px;
+    color: #232536;
+    opacity: 87%;
+    font-weight: 400;
+    line-height: 24px;
+    width: 550px;
+  }
+}
+
+.company-sec2-container {
+  display: flex;
+  width: 624px;
+  height: 368px;
+  background-color: rgba(255, 211, 175, 0.569);
+  align-items: center;
+  padding-left: 110px;
+  margin-left: 106px;
+  justify-content: flex-start;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.umumiy-ikkiga {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.ikkiga-bolingan {
+  gap: 30px;
+  display: flex;
+}
+
+.ikkiga {
+  gap: 70px;
+  display: flex;
+}
+
+.company-container-2 {
+  flex-direction: row;
+  max-width: 1280px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+.footer-bottom {
+  margin-top: 96px;
+}
+
+.company-sec3 {
+  height: 100%;
+  display: flex;
+  background-color: #ecf8f9;
+  padding: 178px 162px;
+  justify-content: space-between;
+}
+
+.company-sec3-container {
+  display: flex;
+  gap: 141px;
+  width: 100%;
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Section 4 */
+
+.company-sec4 {
+  display: flex;
+  flex-direction: column;
+  padding-top: 96px;
+  padding-right: 160px;
+  padding-left: 100px;
+}
+
+.company-container-sec4 {
+  span {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 3px;
+    color: #000;
+    opacity: 87%;
+    margin-bottom: 16px;
+  }
+
+  h2 {
+    font-size: 36px;
+    color: #232536;
+    font-weight: 600;
+    line-height: 54px;
+    width: 701px;
+    margin-bottom: 24px;
+  }
+
+  p {
+    font-size: 16px;
+    color: #232536;
+    opacity: 60%;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 64px;
+    width: 622px;
+  }
+}
+
+/* Section 5 */
+
+.company-sec5 {
+  padding: 96px 160px;
+}
+
+.company-sec5-contaainer {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 1280px;
+}
+
+.company-sec5-text {
+  display: flex;
+  flex-direction: column;
+
+  span {
+    font-size: 14px;
+    color: #232536;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 3px;
+    margin-bottom: 16px;
+  }
+
+  h2 {
+    font-size: 48px;
+    color: #232536;
+    font-weight: 600;
+    width: 624px;
+    line-height: 58px;
+    margin-bottom: 24px;
+  }
+
+  p {
+    font-size: 16px;
+    opacity: 87%;
+    font-weight: 400;
+    color: #232536;
+    line-height: 24px;
+    width: 505px;
+    margin-bottom: 64px;
+  }
+}
+
+.company-sec5-images {
+  height: 100%;
+  width: 1293px;
+  height: 640px;
+  cursor: pointer;
+  display: flex;
+  gap: 0;
+
+  flex-direction: column;
+}
+
+.img1 {
+  display: flex;
+}
+
+#imglr {
+}
+
+.img2 {
+  display: flex;
+
+  &:hover {
+    margin-right: 4px;
+  }
+}
+
+/* Section 6 */

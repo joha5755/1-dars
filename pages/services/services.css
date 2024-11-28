@@ -1,0 +1,257 @@
+@import "../../css/global.css";
+
+.services-sec1 {
+  background-color: #ffe6d2;
+  height: 100%;
+  width: 100%x;
+}
+
+.services-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 96px 160px;
+}
+
+.text-btn {
+  display: flex;
+  flex-direction: column;
+
+  h2 {
+    font-size: 48px;
+    color: #232536;
+    font-weight: 600;
+    line-height: 58px;
+    width: 625px;
+    margin-bottom: 24px;
+  }
+
+  .asosiy {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #232536;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 12px;
+  }
+
+  p {
+    font-size: 16px;
+    opacity: 60%;
+    color: #232536;
+    width: 624px;
+    margin-bottom: 40px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+
+  a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #232536;
+  }
+}
+
+.text-left {
+  ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 90px;
+
+    li {
+      font-size: 24px;
+      font-weight: 600;
+      line-height: 36px;
+      margin-bottom: 16px;
+
+      a {
+        color: #232536;
+      }
+    }
+  }
+}
+
+/* Section 2 */
+
+.services-sec2 {
+  height: 100%;
+  display: flex;
+  background-color: #f9f9ff;
+  padding: 178px 162px;
+  justify-content: space-between;
+}
+
+/* Seciton 3 */
+
+.services-sec3 {
+  height: 100%;
+  padding-right: 160px;
+  background-color: #ffffff;
+}
+
+.service-container {
+  max-width: 1380px;
+  margin-left: auto;
+  width: 100%;
+  margin-right: auto;
+}
+
+.service-sec3-left {
+  display: flex;
+  justify-content: space-between;
+}
+
+.texts-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 140px;
+  span {
+    font-size: 24px;
+    opacity: 87%;
+    font-weight: 600;
+    line-height: 36px;
+    margin-bottom: 16px;
+    margin-left: 160px;
+    margin-top: 96px;
+    color: #000000;
+  }
+
+  h3 {
+    font-size: 36px;
+    color: #232536;
+    font-weight: 600;
+    line-height: 54px;
+    margin-bottom: 24px;
+    width: 624px;
+    margin-left: 160px;
+  }
+
+  p {
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 60%;
+    color: #232536;
+    line-height: 24px;
+    width: 622px;
+    margin-left: 160px;
+  }
+}
+
+/* Section4 */
+
+.service-sec4 {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 160px;
+  padding-right: 160px;
+  height: 100%;
+  background-color: #ecf8f9;
+  margin-top: 70px;
+}
+
+.service-sec4-container {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 160px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 1280px;
+}
+
+.sec4-texts-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  span {
+    font-size: 24px;
+    opacity: 87%;
+    font-weight: 600;
+    margin-left: 140px;
+    line-height: 36px;
+    margin-top: 140px;
+    margin-bottom: 16px;
+  }
+
+  h3 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #232536;
+    margin-left: 140px;
+    line-height: 54px;
+    margin-bottom: 24px;
+    width: 624px;
+  }
+
+  p {
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 60%;
+    color: #232536;
+    line-height: 24px;
+    width: 622px;
+    margin-left: 140px;
+  }
+}
+
+/* Section 5 */
+
+.service-sec5 {
+  display: flex;
+  padding-right: 160px;
+}
+
+.service-sec5-container {
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1380px;
+  width: 100%;
+  padding-right: 160px;
+  align-items: center;
+}
+
+/* Section 6 */
+
+.service-sec6 {
+  background-color: #f9f9ff;
+  display: flex;
+}
+
+.service-sec6-container {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 160px;
+  padding-right: 160px;
+  margin-top: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1580px;
+  width: 100%;
+  padding-bottom: 96px;
+}
+
+/* Section 7 */
+
+.service-sec7 {
+  height: 100%;
+  display: flex;
+  padding-right: 160px;
+  img {
+    margin-top: 70px;
+    margin-right: 160px;
+  }
+}
+
+.service-sec7-container{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 1380px;
+
+}

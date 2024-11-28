@@ -1,0 +1,28 @@
+.btn {
+  padding: 20px 32px;
+  line-height: 24px;
+
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+
+  &:hover {
+    opacity: 80%;
+  }
+  &:active {
+    opacity: 60%;
+  }
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #444cfc;
+  background-image: url(../images/shape-background.png);
+  background-repeat: no-repeat;
+}
+
+/* .btn-text {
+}
+
+.btn-image {
+} */

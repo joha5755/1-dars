@@ -1,0 +1,91 @@
+@import "../../../css/global.css";
+
+.inner-sec1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 96px 160px;
+
+  .img {
+    margin-top: -265px;
+  }
+}
+
+.inners {
+  display: flex;
+  flex-direction: column;
+
+  h4 {
+    color: #232536;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 58px;
+    width: 729px;
+    margin-top: 24px;
+  }
+
+  p {
+    color: #232536;
+    opacity: 87%;
+    margin-top: 24px;
+    width: 719px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+}
+
+.osha {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 36px;
+}
+
+.spans {
+  display: flex;
+  gap: 16px;
+}
+
+.spann {
+  font-size: 16px;
+  color: #232536;
+  opacity: 87%;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.spannn {
+  font-size: 16px;
+  color: #232536;
+  opacity: 60%;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+/* Section 2 */
+
+.inner-sec2 {
+  padding: 0 160px;
+}
+
+.texts {
+  display: flex;
+  flex-direction: column;
+
+  h2 {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 54px;
+    color: #232536;
+    margin-bottom: 24px;
+    width: 842px;
+  }
+
+  p {
+    font-size: 16px;
+    color: #232536;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 24px;
+  }
+}

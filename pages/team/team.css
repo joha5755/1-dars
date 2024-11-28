@@ -1,0 +1,78 @@
+@import "../../css/global.css";
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.team-sec1-head {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.team-sec1-head > span {
+  margin-bottom: 8px;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 54px;
+}
+
+.team-sec1-head > .ceo {
+  margin-bottom: 24px;
+}
+
+.team-sec1-head > p {
+  text-align: center;
+  width: 505px;
+  opacity: 87%;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.team-icons {
+  cursor: pointer;
+  display: flex;
+  gap: 26px;
+  margin-top: 32px;
+}
+
+/* SECTINO2 */
+
+.sec2 {
+  width: 100%;
+  background-color: #ecf8f9;
+  padding: 96px 160px;
+}
+
+.sec2-head {
+  display: flex;
+  flex-direction: column;
+}
+
+.sec2-head > img {
+  width: 16px;
+  height: 16px;
+  margin-bottom: 19px;
+}
+
+.sec2-head > span {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 58px;
+  margin-bottom: 48px;
+}
+
+.team-sec2-50 {
+  display: flex;
+}
+
+.sec2-image-p {
+  display: flex;
+  background-color: white;
+}

@@ -1,0 +1,126 @@
+@import "./fonts.css";
+@import "./button.css";
+@import "./header.css";
+@import "./footer.css";
+@import "./main.css";
+
+/* O'zgaruvchilar */
+:root {
+  --primary-color: #ffa155;
+  --footer-top-background: #fff;
+  --footer-bottom-background: #ffe6d2;
+  --text-color: #232536;
+}
+
+/* STYLE GLOBAL Start */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: 0.3s;
+}
+
+/* STYLE GLOBAL END */
+
+/* HTML STYLE START */
+html {
+  scroll-behavior: smooth;
+  height: 100%;
+}
+
+/* HTML STYLE END */
+
+/* UL,OL STYLE START */
+li {
+  list-style: none;
+}
+
+/* UL,OL STYLE END */
+/* Active */
+
+#active {
+  border-top-color: #ffa155;
+}
+/* Active End */
+/* <a> STYLE START */
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* <a> STYLE END */
+
+/* BODY STYLE START */
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--text-color); 
+}
+
+/* BODY STYLE END */
+
+/* MAIN STYLE */
+.main {
+  flex-grow: 1;
+}
+
+/* MAIN STYLE */
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+/* sec2 uchun CSS */
+.sec2 {
+  padding: 20px;
+  margin-top: 20px;
+  height: auto;
+  min-height: 200px;
+}
+
+.footer .top {
+  background-color: var(--footer-top-background);
+  padding: 40px 0;
+}
+
+.footer .bottom {
+  background-color: var(--footer-bottom-background);
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  padding: 28px 160px;
+}
+
+.footer-head-logo {
+  display: flex;
+  gap: 42px;
+}
+
+.footer-head-logo span {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: black;
+}
+
+.footer-icon {
+  gap: 42px;
+  display: flex;
+}
+
+/* Container Style Start */
+.container {
+  width: 100%;
+  max-width: 1380px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+/* Container Style End */

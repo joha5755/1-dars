@@ -1,0 +1,211 @@
+@import "../../css/global.css";
+
+.career-sec1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 96px 160px;
+}
+
+.sec1-left-career {
+  display: flex;
+  flex-direction: column;
+
+  span {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+  }
+
+  h2 {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 58px;
+    color: #232536;
+    margin-bottom: 16px;
+  }
+
+  p {
+    font-size: 16px;
+    opacity: 87%;
+    margin-bottom: 40px;
+    color: #232536;
+    width: 430px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+}
+
+.alohida-btn {
+  width: 182px;
+  height: 64px;
+  background-image: url(../../images/shape-background.png);
+  background-repeat: no-repeat;
+  background-color: #444cfc;
+}
+
+.b {
+  width: 182px;
+  height: 64px;
+}
+
+.bt {
+  width: 192px;
+  height: 64px;
+  background-color: #444cfc;
+  background-image: url(../../images/shape-background.png);
+  background-repeat: no-repeat;
+  h6 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: white;
+    display: flex;
+    opacity: 87%;
+  }
+}
+
+.career-sec1-container {
+  width: 515px;
+  height: 324px;
+  padding: 82px 80px;
+  background-color: #ffe0c7;
+  background-image: url(../../images/sec5-head-logo.svg);
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+
+.career-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.career-sec2-menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.liii {
+  padding-top: 96px;
+  width: 842px;
+  margin: auto;
+}
+
+.li {
+  padding-bottom: 20px;
+  width: 842px;
+  margin: auto;
+}
+
+.career-container2 {
+  width: 1280px;
+  height: 784px;
+  background-color: #ecf8f9;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.lii {
+  display: flex;
+}
+
+.osha {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 96px;
+  margin-bottom: 30px;
+  margin-top: 43px;
+}
+
+.hr-divider {
+  width: 100%;
+  height: 4px;
+  background-color: #e0f1f2;
+  border-top: none;
+}
+
+.liiii {
+  &:hover {
+    color: #454dfd;
+    cursor: pointer;
+  }
+}
+
+.career-sec3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 96px 160px;
+}
+
+.name {
+  display: flex;
+  gap: 32px;
+
+  .namee {
+    width: 624px;
+    height: 96px;
+    border: none;
+    background-color: #f9f9ff;
+    padding-left: 40px;
+    margin-bottom: 32px;
+    color: #232536;
+    margin-top: 30px;
+    ::placeholder {
+      font-size: 18px;
+      color: #232536;
+      opacity: 80%;
+      font-weight: 500;
+      color: #232536;
+      line-height: 28px;
+    }
+  }
+}
+
+.email-tel {
+  display: flex;
+  gap: 32px;
+
+  .email {
+    width: 624px;
+    height: 96px;
+    border: none;
+    background-color: #f9f9ff;
+    color: #232536;
+    padding-left: 40px;
+    margin-bottom: 32px;
+
+    ::placeholder {
+      font-size: 18px;
+      color: #232536;
+      font-weight: 500;
+      line-height: 28px;
+      color: #232536;
+      opacity: 80%;
+    }
+  }
+}
+
+textarea {
+  width: 1280px;
+  height: 225px;
+  color: #232536;
+  border: none;
+  background-color: #f9f9ff;
+  padding: 34px 40px;
+  ::placeholder {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #232536;
+  }
+}
+
+.check {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 36px;
+}
